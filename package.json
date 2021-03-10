@@ -1,0 +1,27 @@
+{
+  "name": "faker-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkhadir/faker-api.git"
+  },
+  "author": "tkhadir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkhadir/faker-api/issues"
+  },
+  "homepage": "https://github.com/tkhadir/faker-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "faker": "^5.4.0",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "rxjs": "^6.6.6"
+  }
+}

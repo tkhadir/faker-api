@@ -1,0 +1,6 @@
+{
+    "field0": "string",
+    "field1": "number",
+    "field2": "date",
+    "field3": "email"
+}
