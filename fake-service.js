@@ -18,6 +18,9 @@ const prepare = () => {
             case 'date':
                 response[key] = faker.date.future()
                 break
+            case 'object':
+                response[key] = schema[key]
+                break
         }
          
     }
